@@ -56,7 +56,7 @@ class Game():
         print("Shall we play a game?")
         
         while not self.winner and not self.tie:
-            print("Enter 'q' to quit the game")
+            print("\nEnter 'q' to quit the game")
             self.print_board()
             print(f"Player {self.turn} Turn")
             position = input(f"Enter a valid movie (example: a1):  ").lower()
